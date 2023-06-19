@@ -9,6 +9,7 @@ from Nationality_Handling import handle_nationality
 from Marital_Status_Handling import handle_marital_status
 from Date_Of_Birth_Handling import handle_date_of_birth
 from Save_Button_Handling import handle_save_button
+from Gender_Handling import handle_gender
 
 
 def login_and_save_my_info():
@@ -30,6 +31,7 @@ def login_and_save_my_info():
         handle_nationality()
         handle_marital_status()
         handle_date_of_birth()
+        handle_gender()
         time.sleep(2)
         handle_save_button()
 
