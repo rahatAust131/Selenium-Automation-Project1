@@ -9,7 +9,7 @@ def handle_emp_id():
                                               ".orangehrm-edit-employee-content .oxd-form-row:nth-child(3) [class='oxd-grid-3 orangehrm-full-width-grid']:nth-of-type(1) .oxd-grid-item--gutters:nth-of-type(1) input")))
         emp_id_field.send_keys(Keys.CONTROL, 'a')
         emp_id_field.send_keys(Keys.BACKSPACE)
-        emp_id_field.send_keys("4580")
+        emp_id_field.send_keys("46661")
         write_in_file("Log/report.txt", "Employee id: " + emp_id_field.get_attribute('value') + " entered successfully!")
     except Exception as e:
         write_in_file("Log/report.txt", "Employee ID field exception: " + type(e).__name__)
@@ -21,7 +21,7 @@ def handle_emp_id():
                                               ".orangehrm-edit-employee-content .oxd-form-row:nth-child(3) [class='oxd-grid-3 orangehrm-full-width-grid']:nth-of-type(1) .oxd-grid-item--gutters:nth-of-type(2) input")))
         other_id_field.send_keys(Keys.CONTROL, 'a')
         other_id_field.send_keys(Keys.BACKSPACE)
-        other_id_field.send_keys("1254")
+        other_id_field.send_keys("180104131")
         write_in_file("Log/report.txt", "Other id: " + other_id_field.get_attribute('value') + " entered successfully!")
     except Exception as e:
         write_in_file("Log/report.txt", "Other ID field exception: " + type(e).__name__)

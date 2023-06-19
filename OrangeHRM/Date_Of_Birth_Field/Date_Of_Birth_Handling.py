@@ -9,7 +9,7 @@ def handle_date_of_birth():
                 (By.CSS_SELECTOR, ".orangehrm-edit-employee-content .oxd-form-row:nth-child(5) [placeholder]")))
         date_of_birth_field.send_keys(Keys.CONTROL, 'a')
         date_of_birth_field.send_keys(Keys.BACKSPACE)
-        date_of_birth_field.send_keys("1999-11-28")
+        date_of_birth_field.send_keys("1999-11-28")     # YYYY-MM-DD format
         write_in_file("Log/report.txt",
                       "Date of Birth field: " + date_of_birth_field.get_attribute('value') + " entered successfully!")
     except Exception as e:

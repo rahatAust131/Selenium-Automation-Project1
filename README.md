@@ -20,4 +20,4 @@
     <li>Lastly the "Save" button is going to be clicked</li>
     <li>In the end, all the data are going to be saved in the "report.txt" file and the browser is going to be closed!</li>
   </ul>
-  <h3>Here is the sample video of the output</h3>
+  <h3>Here is the sample <a href="https://www.awesomescreenshot.com/video/18448406?key=8e3ed78125e9972bf1d12c157bda9b00">Video</a> of the output</h3>

@@ -9,7 +9,7 @@ def handle_ssn_and_sin_number():
                                               ".orangehrm-edit-employee-content [class='oxd-grid-3 orangehrm-full-width-grid']:nth-of-type(3) .oxd-grid-item--gutters:nth-of-type(1) input")))
         ssn_field.send_keys(Keys.CONTROL, 'a')
         ssn_field.send_keys(Keys.BACKSPACE)
-        ssn_field.send_keys("1234")
+        ssn_field.send_keys("778899")
         write_in_file("Log/report.txt", "SSN number: " + ssn_field.get_attribute('value') + " entered successfully!")
     except Exception as e:
         write_in_file("Log/report.txt", "SSN number field exception: " + type(e).__name__)
@@ -21,7 +21,7 @@ def handle_ssn_and_sin_number():
                                               ".orangehrm-edit-employee-content [class='oxd-grid-3 orangehrm-full-width-grid']:nth-of-type(3) .oxd-grid-item--gutters:nth-of-type(2) input")))
         sin_field.send_keys(Keys.CONTROL, 'a')
         sin_field.send_keys(Keys.BACKSPACE)
-        sin_field.send_keys("4321")
+        sin_field.send_keys("998877")
         write_in_file("Log/report.txt", "SIN number: " + sin_field.get_attribute('value') + " entered successfully!")
     except Exception as e:
         write_in_file("Log/report.txt", "SIN number field exception: " + type(e).__name__)

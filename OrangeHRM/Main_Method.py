@@ -15,6 +15,7 @@ from OrangeHRM.Military_Service_Field.Military_Field_Handling import handle_mili
 from OrangeHRM.Smoker_Checker_Field.Smoker_Checker_Handling import handle_smoker_checker
 from OrangeHRM.Blood_Type_Field.Blood_Type_Handling import handle_blood_type
 from OrangeHRM.Custom_Field_Save_Button.Custom_Field_Save_Button_Handling import handle_custom_field_save_button
+from OrangeHRM.Scroll_Down_Context.Scroll_Down_With_Down_Arrow import handle_page_scroll_down
 
 
 def login_and_save_my_info():
@@ -51,6 +52,10 @@ def login_and_save_my_info():
         """
         handle_ssn_and_sin_number()
         """
+        Page scroll by the height of scrollHeight divided by 4
+        """
+        handle_page_scroll_down(3)
+        """
         nationality (dropdown) field is checked here
         """
         handle_nationality()
@@ -78,7 +83,10 @@ def login_and_save_my_info():
         Save button click is checked here
         """
         handle_save_button()
-
+        """"
+        Page scroll by the height of scrollHeight divided by 2
+        """
+        handle_page_scroll_down(1.5)
         """
         Custom field : Blood Type (dropdown) field is checked here
         """
