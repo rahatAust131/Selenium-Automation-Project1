@@ -1,6 +1,5 @@
-
-
 from Necessary_Packages import *
+
 
 def handle_save_button():
     # Save button checking
@@ -11,4 +10,4 @@ def handle_save_button():
         time.sleep(3)
         write_in_file("report.txt", "Save button clicked successfully!")
     except Exception as e:
-        write_in_file("report.txt", "Save button click exception")
+        write_in_file("report.txt", "Save button click exception: " + type(e).__name__)

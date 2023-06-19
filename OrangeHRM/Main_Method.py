@@ -1,3 +1,5 @@
+
+
 from Necessary_Packages import *
 from Name_Handling import handle_names
 from Login_Handling import handle_login_info
@@ -12,6 +14,8 @@ from Save_Button_Handling import handle_save_button
 from Gender_Handling import handle_gender
 from Military_Field_Handling import handle_military_service_field
 from Smoker_Checker_Handling import handle_smoker_checker
+from Blood_Type_Handling import handle_blood_type
+from Custom_Field_Save_Button_Handling import handle_custom_field_save_button
 
 
 def login_and_save_my_info():
@@ -39,6 +43,10 @@ def login_and_save_my_info():
 
         handle_save_button()
 
+        handle_blood_type()
+        handle_custom_field_save_button()
+
+        time.sleep(3)
         write_in_file("report.txt", "-----Data ends here-----")
 
     except Exception as e:

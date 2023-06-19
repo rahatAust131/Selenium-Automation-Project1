@@ -16,11 +16,13 @@ Driver license number: 1254 entered successfully!
 license Expiry date field: 2024-05-25 entered successfully!
 SSN number: 1234 entered successfully!
 SIN number: 4321 entered successfully!
-nationality: Bangladeshi entered successfully!
+nationality: Bangladeshi selected successfully!
 Marital Status: Single entered successfully!
 Date of Birth field: 1999-11-28 entered successfully!
-Gender: Female selected!
-Military Service field value: 0 entered successfully!
-Gender: Yes selected!
+Gender: Male selected!
+Military Service field value: 2 entered successfully!
+Smoker: Yes selected!
+Save button clicked successfully!
+Blood Type: B+ selected successfully!
 Save button clicked successfully!
 -----Data ends here-----

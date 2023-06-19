@@ -13,6 +13,6 @@ def handle_nationality():
         while nationality_field.text != 'Bangladeshi':
             nationality_field.send_keys(Keys.ARROW_DOWN)
         nationality_field.send_keys(Keys.ENTER)
-        write_in_file("report.txt", "nationality: " + nationality_field.text + " entered successfully!")
+        write_in_file("report.txt", "nationality: " + nationality_field.text + " selected successfully!")
     except Exception as e:
         write_in_file("report.txt", "Nationality field exception: " + type(e).__name__)
