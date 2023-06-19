@@ -1,14 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README File</title>
-</head>
-<body>
-  
   <h3>Please Follow these steps to open the project and see the output</h3>
   <p>This is the site <a href="https://opensource-demo.orangehrmlive.com/">OrangeHRM</a> on which this project is made : </p>
   
@@ -31,5 +20,3 @@
     <li>Lastly the "Save" button is going to be clicked and the browser is going to be closed!</li>
   </ul>
   <h3>Here is the sample video of the output</h3>
-</body>
-</html>
