@@ -18,9 +18,9 @@ from OrangeHRM.Custom_Field_Save_Button.Custom_Field_Save_Button_Handling import
 
 
 def login_and_save_my_info():
-    # checking if the title of the current url matches the homepage url
     try:
         write_in_file("Log/report.txt", "\n----Data starts here----\n")
+        # checking if the title of the current url matches the homepage url
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         assert "https://opensource-demo.orangehrmlive.com" in driver.current_url, f"URL " \
                                                                                   f"mismatched!"
