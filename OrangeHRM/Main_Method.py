@@ -10,6 +10,8 @@ from Marital_Status_Handling import handle_marital_status
 from Date_Of_Birth_Handling import handle_date_of_birth
 from Save_Button_Handling import handle_save_button
 from Gender_Handling import handle_gender
+from Military_Field_Handling import handle_military_service_field
+from Smoker_Checker_Handling import handle_smoker_checker
 
 
 def login_and_save_my_info():
@@ -32,7 +34,9 @@ def login_and_save_my_info():
         handle_marital_status()
         handle_date_of_birth()
         handle_gender()
-        time.sleep(2)
+        handle_military_service_field()
+        handle_smoker_checker()
+
         handle_save_button()
 
         write_in_file("report.txt", "-----Data ends here-----")

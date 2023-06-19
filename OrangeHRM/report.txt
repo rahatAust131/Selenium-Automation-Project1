@@ -20,5 +20,7 @@ nationality: Bangladeshi entered successfully!
 Marital Status: Single entered successfully!
 Date of Birth field: 1999-11-28 entered successfully!
 Gender: Female selected!
+Military Service field value: 0 entered successfully!
+Gender: Yes selected!
 Save button clicked successfully!
 -----Data ends here-----
